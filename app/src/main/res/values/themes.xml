@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MySteps" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.MySteps" parent="Base.Theme.MySteps">
+        <item name="colorPrimary">@color/peach</item>
+
+    </style>
+    <style name="Theme.NavigationDrawer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">@color/peach</item>
+    <item name="colorPrimaryVariant">@color/peach</item>
+    <item name="colorOnPrimary">@color/white</item>
+    <!-- Secondary brand color. -->
+
+    <!-- Status bar color. -->
+    <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    <!-- Customize your theme here. -->
+</style>
+
+    <style name="nightModeSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/nightmode</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">@color/white</item>
+        <item name="android:statusBarColor">@color/peach</item>
+    </style>
+
+    <style name="notifSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/private_account</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">#30ffffff</item>
+        <item name="android:statusBarColor">@color/peach</item>
+    </style>
+
+    <style name="ButtonBackground"><item name="android:backgroundTint">@color/secondary</item></style>
+    <style name="transparentBg"><item name = "android:background">#30ffffff</item></style>
+    <style name="ScreenBackground"><item name="android:background">@drawable/gradient</item></style>
+    <style name="CardBackground"><item name="android:background">@drawable/round_back_white</item></style>
+    <style name="TextColor"><item name="android:textColor">@color/white</item></style>
+    <style name="ImageChange"> <item name="android:src">@drawable/usericon</item></style>
+    <style name="MenuColor"><item name = "android:background">#FFE6DA</item></style>
+    <style name="MenuHeaderColor"><item name = "android:background">@color/peach</item></style>
+    <style name="ProgressColor"><item name = "android:endColor">@color/peach</item></style>
+    <style name="HeaderIconImgChange"><item name= "android:src">@drawable/appicon</item></style>
+
+</resources>

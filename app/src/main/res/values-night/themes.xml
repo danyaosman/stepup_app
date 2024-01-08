@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MySteps" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Theme.MySteps" parent="Base.Theme.MySteps">
+        <item name="colorPrimary">@color/nightmode</item>
+        <item name="colorSecondary">#3F51B5</item>
+    </style>
+
+    <style name="nightModeSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/nightmode</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">#99000000</item>
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+
+    <style name="notifSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/private_account</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">#99000000</item>
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+
+    <style name="transparentBg"><item name = "android:background">#30000000</item></style>
+    <style name="ButtonBackground"><item name="android:backgroundTint">@color/secondary</item> </style>
+    <style name="ScreenBackground"><item name="android:background">@drawable/gradientnight</item></style>
+    <style name="CardBackground"><item name="android:background">@drawable/round_back_white</item></style>
+    <style name="TextColor"><item name="android:textColor">@color/white</item></style>
+    <style name="ImageChange"> <item name="android:src">@drawable/usernightedited</item></style>
+    <style name="MenuColor"><item name = "android:background">#220235</item></style>
+    <style name="MenuHeaderColor"><item name = "android:background">@color/nightmode</item></style>
+    <style name="ProgressColor"><item name = "android:background">@color/nightmode</item></style>
+
+    <style name="HeaderIconImgChange"><item name= "android:src">@drawable/appiconnight</item></style>
+
+</resources>

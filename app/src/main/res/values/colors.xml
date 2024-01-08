@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="primary">#ff6666</color>
+    <color name="secondary">#f03049</color>
+
+    <color name="transparentbg">#99ffffff</color>
+    <color name="peach">#ff6666</color>
+    <color name="nightmode">#590071</color>
+    <color name="notifications">#00BCD4</color>
+    <color name="private_account">#FFC107</color>
+    <color name="security">#E91E63</color>
+</resources>
